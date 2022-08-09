@@ -1,8 +1,7 @@
-#!/usr/env/bin ruby
 # frozen_string_literal: true
 
 print 'Введите длину основания треугольника "a": '
-triangle_side_a = Float(gets.chomp.to_f)
+triangle_side_a = Float(gets.chomp)
 
 print 'Введите высоту треугольника "h": '
 triangle_height = Float(gets.chomp)
